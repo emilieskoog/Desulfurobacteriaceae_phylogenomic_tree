@@ -1,0 +1,10 @@
+AV08_genome.fa
+Balnearium_lithotrophicum_DSM_16304.fa
+D_atlanticum_DSM_15668.fa
+D_indicum_K6013.fa
+D_sp_TC5-1.fa
+D_thermolithotrophum_DSM_11699.fa
+D_thermolithotrophum_HR11.fa
+Phorcysia_thermohydrogeniphila_DSM_24425.fa
+Thermovibrio_ammonificans.fa
+Thermovibrio_guaymasensis_DSM_15521.fa
