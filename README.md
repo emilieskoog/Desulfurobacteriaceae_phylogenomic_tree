@@ -49,9 +49,13 @@ GToTree will output a file with the extension `.tre`. In this case, because I de
 
 Now, by default, GToTree uses the alignment program Muscle and uses the program FastTree to take that alignment and build the tree. You can change these parameters if you'd like. I decided to use IQTree to biuld the tree instead of FastTree.
 
-I am actually not sure if IQTree is already built into GToTree. You can go ahead and try by running the step below and if it's confused then you need to install IQTree. I already had IQTree so I conda activated my IQTree environment (because I was too lazy to potentially get errors) and executed the following below: 
+You need to find 2 files for inputting to IQTree. These are the `Aligned_SCGs.faa` and `Partitions.txt` (in the `run_files` folder) files that were outputted from our previous step. Based on how GToTree outputs files, you will need to `cd` (change directory) into the new folder that was created, in my case `Desulfurobacteria`. 
 
-But first, you need to find 2 files for inputting to IQTree. These are the `Aligned_SCGs.faa` and `Partitions.txt` (in the `run_files` folder) files that were outputted from our previous step.
+```
+cd Desulfurobacteria
+```
+
+Then you can run the following:
 
 ```
 iqtree -s Aligned_SCGs.faa \
